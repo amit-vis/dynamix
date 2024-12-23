@@ -1,0 +1,64 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafc;
+}
+
+/* Checklist Container */
+.checklist-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title Styling */
+.checklist-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Checklist Items */
+.checklist-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.checklist-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 5px;
+    background-color: #f3f4f6;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Passed Condition */
+.checklist-container li.passed {
+    background-color: #e6ffed;
+    color: #2e7d32;
+}
+
+/* Failed Condition */
+.checklist-container li.failed {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+/* Loader Styling */
+.loading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    text-align: center;
+    margin-top: 50px;
+}
